@@ -22,13 +22,8 @@
                     <a class="nav-link" href="{{ url('/about') }}">About</a>
                 </li>
                 <li class="nav-item">
-<<<<<<< HEAD
                     <a class="nav-link" href="{{ url('/feedback') }}">Feedback</a>
                 </li>
-=======
-   		 <a class="nav-link" href="{{ url('/feedback') }}">Feedback</a>
-		</li>
->>>>>>> origin/main
             </ul>
         </div>
     </div>

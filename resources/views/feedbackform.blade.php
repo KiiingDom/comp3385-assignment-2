@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 =======
 <!-- resources/views/feedbackform.blade.php -->
+<!-- first version, had too many errors -->
 
 >>>>>>> origin/main
 @extends('layouts.app')
