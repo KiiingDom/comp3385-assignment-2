@@ -3,6 +3,16 @@
 @section('content')
 <h1> Feedback Form</h1>
 <br>
+
+@if ($errors->any())
+ <div class="alert alert-danger">
+ <ul>
+ @foreach ($errors->all() as $error)
+ <li>{{ $error }}</li>
+ @endforeach
+ </ul>
+ </div>
+@endif
 <form method="POST" action="/feedback/send">
     @csrf
 

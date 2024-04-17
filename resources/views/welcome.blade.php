@@ -8,6 +8,5 @@
             <p class="lead mb-4">You've successfully loaded up the Laravel starter template for this assignment.</p>
         </div>
 
-        @include('feedbackform')
     </div>
 @endsection
